@@ -24,6 +24,8 @@ angular.module('ngParallax', []).directive('ngParallax', [
               bgObj.style.position = "relative"
               bgObj.style.background = "url(" + scope.pattern + ")"
               bgObj.style.backgroundAttachment = 'fixed';
+              bgObj.style.backgroundPosition = 'center'
+              bgObj.style.backgroundSize = 'cover'
           var isMobile = window.mobileAndTabletcheck();
 
 
